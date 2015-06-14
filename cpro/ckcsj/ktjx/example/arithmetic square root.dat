@@ -1,0 +1,13 @@
+ /*用牛顿迭代任意一个正数的算术平方根 */
+ #include "stdio.h"
+ #define eps 1e-5
+ void main()
+ {float x1,x2,a;
+  scanf("%d",&a);
+  x2=a/2;
+ do{
+   x1=x2; 
+   x2=1.0/2*(x1+a/x1);
+   }while(fabs(x1-x2)>eps);
+  printf("%f",x2);
+}

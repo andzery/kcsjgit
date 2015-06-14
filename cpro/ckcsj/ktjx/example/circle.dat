@@ -1,0 +1,9 @@
+/*求圆的面积/
+#include "stdio.h"
+#define  pi 3.14159
+void main()
+{float r,s;
+ r=2.4;
+ s=pi*r*r;
+ printf("s=%f\n",s);
+  }

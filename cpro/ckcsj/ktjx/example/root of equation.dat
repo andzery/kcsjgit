@@ -1,0 +1,22 @@
+/*求一元二次方程的根   */
+#include "stdio.h"
+#include "math.h"
+int main()
+{float a,b,c,d,x1,x2,e,f;
+ scanf("%f%f%f",&a,&b,&c);
+ if(a==0)
+   {  printf("此方程不是二次方程，请重新执行并输入\n");
+      return 0;}
+ else
+   { d=b*b-4*a*c;e=-b/2/a;f=sqrt(fabs(d))/2/a;
+     if(d>=0)
+       if(d==0)
+        printf("方程有一个根，是%.4f\n",e);
+       else
+        {x1=e+f;x2=e-f;
+         printf("方程有两个不同的实根，分别是1：%.4f    2:%.4f\n ",x1,x2);}
+      else
+       {printf("方程有两个虚根.分别是1： %.4f+%.4fi     2:%.4f-%.4fi",e,f,e,f);
+        }
+            }
+}

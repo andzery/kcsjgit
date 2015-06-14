@@ -1,0 +1,7 @@
+/* menu */	
+.menu { padding:0; margin:0 auto; width:902px; height:54px; background: url(../img/menu_bg.jpg) top repeat-x; color:#000; }
+.menu ul { padding:0; list-style:none; border:0; margin:0; padding:0 30px !important;  }
+.menu ul li { float:left; margin:0; border:0; }
+.menu ul li a { float:left; margin:0; color:#fff; font:bold 12px Arial, Helvetica, sans-serif; padding:20px; text-decoration:none; border-right:1px solid   #09C;}
+.menu ul li a.active {color:#fff; text-decoration:none; font:bold 12px Arial, Helvetica, sans-serif; }
+.menu ul li a:hover { color:#fff; text-decoration:underline; background:url(../img/hover.jpg) repeat-x;  }

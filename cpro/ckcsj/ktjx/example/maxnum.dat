@@ -1,0 +1,12 @@
+/*一批数中找出其中最大的数 */
+#include "stdio.h"
+#define N 10
+void main()
+{ int x,i,m;
+  scanf("%d",&x);
+  m=x;
+  for(i=2;i<=N;i++)
+  { scanf("%d",&x);
+    if(x>m)m=x;}
+  printf("最大的数是 %d\n",m);
+ }

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+   version="2.5">
+   
+
+ 
+
+<servlet>
+  <display-name>BrowseServlet</display-name>
+  <servlet-name>BrowseServlet</servlet-name>
+  <servlet-class>com.zr.cpro.servlet.BrowseServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <display-name>CheckRegisterServlet</display-name>
+  <servlet-name>CheckRegisterServlet</servlet-name>
+  <servlet-class>com.zr.cpro.servlet.CheckRegisterServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <display-name>ComposeServlet</display-name>
+  <servlet-name>ComposeServlet</servlet-name>
+  <servlet-class>com.zr.cpro.servlet.ComposeServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <display-name>DeleteServlet</display-name>
+  <servlet-name>DeleteServlet</servlet-name>
+  <servlet-class>com.zr.cpro.servlet.DeleteServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <display-name>ModifyServlet</display-name>
+  <servlet-name>ModifyServlet</servlet-name>
+  <servlet-class>com.zr.cpro.servlet.ModifyServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <display-name>ReadServlet</display-name>
+  <servlet-name>ReadServlet</servlet-name>
+  <servlet-class>com.zr.cpro.servlet.ReadServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <display-name>RegisterServlet</display-name>
+  <servlet-name>RegisterServlet</servlet-name>
+  <servlet-class>com.zr.cpro.servlet.RegisterServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <display-name>ReplyServlet</display-name>
+  <servlet-name>ReplyServlet</servlet-name>
+  <servlet-class>com.zr.cpro.servlet.ReplyServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>CheckYzmServlet</servlet-name>
+  <servlet-class>com.zr.cpro.servlet.CheckYzmServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>BrowseServlet</servlet-name>
+  <url-pattern>/BrowseServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>CheckRegisterServlet</servlet-name>
+  <url-pattern>/CheckRegisterServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ComposeServlet</servlet-name>
+  <url-pattern>/ComposeServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>DeleteServlet</servlet-name>
+  <url-pattern>/DeleteServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ModifyServlet</servlet-name>
+  <url-pattern>/ModifyServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ReadServlet</servlet-name>
+  <url-pattern>/ReadServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>RegisterServlet</servlet-name>
+  <url-pattern>/RegisterServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ReplyServlet</servlet-name>
+  <url-pattern>/ReplyServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>CheckYzmServlet</servlet-name>
+  <url-pattern>/CheckYzmServlet</url-pattern>
+ </servlet-mapping>
+
+
+ <display-name>Welcome to Tomcat</display-name>
+  
+  <description>Welcome to Tomcat
+</description>
+</web-app>

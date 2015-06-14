@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+   
+  <Resource  name="jdbc/mysql"
+         type="javax.sql.DataSource" 
+         password="zhang1234" 
+         driverClassName="com.mysql.jdbc.Driver" 
+         maxActive="4000" 
+         maxWait="5000" 
+         maxIdle="4000"
+         username="root"
+         url="jdbc:mysql://localhost:3306/cpro?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=gb2312&amp;zeroDateTimeBehavior=convertToNull"
+  /> 
+   </Context>
+     
